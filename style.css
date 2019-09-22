@@ -1,0 +1,117 @@
+body{
+    padding:0px;
+    margin:0px;
+    font-family: 'Rubik', sans-serif;
+
+}
+
+
+
+.parallax {
+  background-image:  linear-gradient(to bottom, rgba(255,255,255,0.1), rgba(237, 189, 159,0.1)),url("111.png");
+  height: 100vh;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+    
+}
+    
+.parallax2{
+ background-image: url("1.jpg");
+  min-height:500px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.parallax3{
+  background-image: url("3.jpg");
+  min-height:500px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}    
+    
+.box{
+height:50vh;
+    
+}
+
+.data1{
+    height:70vh;
+    border:2px solid black;
+    background-color:darkgrey;
+    font-size:36px;
+    color:purple;
+    overflow: hidden;
+}
+.data2{
+    height:30vh;
+    border:2px solid black;
+    background-color:ghostwhite;
+    font-size:36px;
+    color:purple;
+    overflow: hidden;
+}
+.data3{
+    height:30vh;
+    border:2px solid black;
+    background-color:grey;
+    font-size:36px;
+    color:purple;
+    overflow: hidden;
+}
+
+
+
+
+
+.top1{
+    height: 10vh;
+   
+    padding: 2px;
+}
+
+
+li {
+   
+    display: inline;
+    float:right;
+    padding: 10px 8px;
+    margin:10px;
+    margin-right: 80px;
+    
+}
+
+a{  
+    text-decoration: none;
+    color:black;
+    font-weight: 700;
+    font-size: 30px
+    font-family:'Rubik', sans-serif;
+}
+a:hover{
+    
+    color:purple;
+    border: 2px solid purple;
+    padding:5px;
+    border-radius: 5px;
+}
+
+
+
+
+
+
+
+.logo{
+    position:absolute;
+    left:30px;
+    
+    width:70px;
+    height: 70px;
+    display:inline;
+}
